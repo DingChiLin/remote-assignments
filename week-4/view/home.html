@@ -1,0 +1,29 @@
+Home Page!
+<html>
+    <head>
+        <script src="javascripts/authenticate.js"></script>
+    </head>
+    <body>
+        <p>-------------</p>
+        <form onsubmit="signUp(this); return false;">
+            <p>Sign Up</p>
+            Your Email:
+            <input type="text" name="email"><br>
+            Your Password:
+            <input type="text" name="password"><br>
+            <input type="submit" value="Submit">
+        </form>
+        <p id="sign_up_error_message" style="color:red"></p>
+        <p>-------------</p>
+        <form onsubmit="signIn(this); return false;">
+            <p>Sign In</p>
+            Your Email:
+            <input type="text" name="email"><br>
+            Your Password:
+            <input type="text" name="password"><br>
+            <input type="submit" value="Submit">
+        </form>
+        <p id="sign_in_error_message" style="color:red"></p>
+        <p>-------------</p>
+    </body>
+</html>
