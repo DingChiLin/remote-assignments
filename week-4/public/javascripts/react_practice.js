@@ -144,10 +144,6 @@ class Menu extends React.Component {
             <div className='menu'>
                 <Title />
                 <Item />
-                <Message />
-                <Section />
-                <Contents />
-                <Actions />
             </div>
         )
     }
@@ -156,7 +152,13 @@ class Menu extends React.Component {
 class App extends React.Component {
     render() {
         return (
-            <Menu />
+            <div>
+                <Menu />
+                <Message />
+                <Section />
+                <Contents />
+                <Actions />
+            </div>
         )
     };
 }
