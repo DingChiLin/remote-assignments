@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="script/main.js"></script>
+    </head>
+    <body>
+        <div class="menu">
+            <div class="title">
+                    <p>Website Title / Logo</p>
+            </div>
+            <div class="items">
+                <ul>
+                    <li><img src="image/meun_trigger_icon.png" alt="menu trigger" onclick="showMenu()"></li>
+                    <li><p>Item 1</p></li>
+                    <li><p>Item 2</p></li>
+                    <li><p>Item 3</p></li>
+                    <li><p>Item 4</p></li>
+                </ul>
+            </div>
+            <div id="mobile_items">
+                <p class="close_menu" onclick="closeMenu()">X</p>
+                <ul>
+                    <li><p>Item 1</p></li>
+                    <li><p>Item 2</p></li>
+                    <li><p>Item 3</p></li>
+                    <li><p>Item 4</p></li>
+                </ul>
+            </div>
+        </div>
+        <div class="message" onclick="showMessage()">
+            <h1 id="welcome_message">Welcome Message</h1>
+        </div>
+        <div class="section">
+            <h2>Section Title</h2>
+        </div>
+        <div class="contents">
+            <div class="content">Content box 1</div>
+            <div class="content">Content box 2</div>
+            <div class="content">Content box 3</div>
+            <div class="content">Content box 4</div>
+        </div>
+        <div class="actions">
+            <button onclick="showHiddenContents()">Call to Action</button>
+        </div>
+        <div id="hidden_contents">
+            <div class="contents">
+                    <div class="content">Content box 1</div>
+                    <div class="content">Content box 2</div>
+                    <div class="content">Content box 3</div>
+                    <div class="content">Content box 4</div>
+            </div>
+        </div>
+    </body>
+</html>
+
